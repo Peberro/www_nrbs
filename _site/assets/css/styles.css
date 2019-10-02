@@ -15,7 +15,7 @@ body, html { width: 100%; margin: 0px; padding: 0px; overflow-x: hidden; }
 
 header, section { overflow-x: hidden; }
 
-.intro { background-color: red; background: yellow; background-size: 100% auto; background-repeat: no-repeat; overflow: hidden; width: 100%; padding: 80px 0 300px 0; }
+.intro { background-size: 100% auto; background-repeat: no-repeat; overflow: hidden; width: 100%; padding: 80px 0 300px 0; }
 
 .benefits-panel { background: #000c1e; padding: 280px 0; }
 
@@ -43,6 +43,16 @@ header, section { overflow-x: hidden; }
   .benefits-title { font-size: 18px; margin: 0 0 15px 0; }
   .benefits-icon { height: 60%; max-height: 85px; } }
 
+.blue-gradient { background: linear-gradient(45deg, #001B43 0%, #000c1e 100%); color: #fff; }
+
+.blue { background: #000c1e; color: #fff; }
+
+.lightblue { background: #002863; color: #fff; }
+
+.darkblue { background: #001B43; color: #fff; }
+
+.white { background: white; color: #000c1e; }
+
 .features-container { width: 100%; display: flex; flex-wrap: wrap; flex-direction: row; align-items: center; }
 
 .features-img { width: 50%; height: 65vh; background: red; }
@@ -58,9 +68,9 @@ header, section { overflow-x: hidden; }
   .features-info { width: 100%; order: 1; }
   .features-img { width: 100%; height: 25vh; order: 2; } }
 
-.contact-panel { background: blanchedalmond; padding: 180px 0; text-align: center; }
+.contact-panel { background: white; padding: 180px 0; text-align: center; }
 
-.footer-panel { background: red; padding: 180px 0; text-align: center; }
+.footer-panel { padding: 80px 0; text-align: center; }
 
 .navbar-nav .nav-link > a { color: red; }
 
@@ -87,5 +97,7 @@ header, section { overflow-x: hidden; }
   .nav-link { padding-left: 30px !important; } }
 
 .contact-btn { background: #23bec6; padding: 8px 20px; border-radius: 5px; font-size: 18px; color: #FFFFFF; text-align: center; text-decoration: none; }
+
+.modal-open { padding-right: 0px !important; }
 
 /*# sourceMappingURL=styles.css.map */

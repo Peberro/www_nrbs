@@ -59,9 +59,7 @@ header{
 }
 
 
-.intro{
-background-color: red;
-background: yellow; //-url(/assets/images/image-one.jpg);
+.intro{ //-url(/assets/images/image-one.jpg);
 background-size: 100% auto;
 background-repeat: no-repeat;
 overflow: hidden;
@@ -168,6 +166,30 @@ padding: 80px 0 300px 0;
         max-height: 85px;
     }
 }
+.blue-gradient{
+    background: linear-gradient(45deg, $nrbs-darkblue 0%,$nrbs-blue 100%);
+    color: #fff;
+}
+
+.blue{
+    background: $nrbs-blue;
+    color: #fff;
+}
+
+.lightblue{
+    background: $nrbs-lightblue;
+    color: #fff;
+}
+
+.darkblue{
+    background: $nrbs-darkblue;
+    color: #fff;
+}
+
+.white{
+    background: white;
+    color: $nrbs-blue;
+}
 
 .features-container {
     width: 100%;
@@ -223,14 +245,13 @@ padding: 80px 0 300px 0;
 
 
 .contact-panel{
-    background: blanchedalmond;
+    background: white;
     padding: 180px 0;
     text-align: center;
 }
 
 .footer-panel{
-    background: red;
-    padding: 180px 0;
+    padding: 80px 0;
     text-align: center;
 }
 
@@ -308,4 +329,8 @@ padding: 80px 0 300px 0;
     color: #FFFFFF;
     text-align: center;
     text-decoration: none;
+}
+
+.modal-open {
+    padding-right: 0px !important;
 }
